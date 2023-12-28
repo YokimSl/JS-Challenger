@@ -24,7 +24,7 @@ function table(number) {
     }
 }
 
-table(7);
+table(9);
 
 // Bônus:
 // Agora coloque mais um parâmetro na função: ao invés da tabuada ir de 1 a 10, 
