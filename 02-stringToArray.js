@@ -12,7 +12,7 @@
 const exampleString = "I love technology";
 
 function stringToArray(string) {
-    return string.split('');
+    return string.split(' ');
 }
 
 let meuArrey = stringToArray(exampleString)
@@ -29,7 +29,7 @@ function compareArrays(a, b) {
     return a.length === b.length && a.every((value, index) => value === b[index]);
 }
 console.log('TESTS:')
-if (compareArrays(['I', ' ', 'l', 'o', 'v', 'e', ' ', 't', 'e', 'c', 'h', 'n', 'o', 'l', 'o', 'g', 'y'], stringToArray(exampleString))) {
+if (compareArrays(["I", "love", "technology"], stringToArray(exampleString))) {
     console.log("✅ passed");
 } else {
     console.log("❌ failed");
