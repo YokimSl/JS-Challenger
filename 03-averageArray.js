@@ -10,7 +10,9 @@
 const exampleArray = [23, 14, 5, 300, 2];
 
 function averageArray(array) {
-    console.log("complete com o código aqui! :)");
+    let everage = (exampleArray.reduce((sum,n) => sum + n,0 )/exampleArray.length )
+    console.log(everage);
+    return everage;
 }
 
 
