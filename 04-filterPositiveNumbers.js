@@ -7,7 +7,11 @@
 // [1, -2, 0, 5, 8, -3] -> [1, 0, 5, 8]
 
 function filterPositiveNumbers(array) {
-    console.log("complete com o código aqui! :)");
+    let filterArray = array.filter(function(numero){
+        return numero >=0;
+    })
+
+    return filterArray;
 }
 
 
