@@ -26,7 +26,7 @@ function reverseString(string) {
    return reversedString;
 }
 
-reverseString(exampleString);
+console.log(reverseString(exampleString))
 
 // --------
 
@@ -34,7 +34,7 @@ const examplePalindrome = "reviver";
 
 function palindrome(string) {
     const reversedString = reverseString(examplePalindrome);
-    console.log("complete com o código aqui! :)");
+    return reversedString;
 }
 
 
