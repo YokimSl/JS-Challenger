@@ -2,7 +2,13 @@
 // retorne apenas números negativos. Se o número for zero, retorne apenas zero.
 
 function justNegativeNumbers(num) {
-    console.log("complete com o código aqui! :)");
+    if(num < 0){
+        return num;
+    }else if (num > 0){
+        return num * -1;
+    }else {
+        return 0
+    }   
 }
 
 

@@ -30,13 +30,11 @@ console.log(reverseString(exampleString))
 
 // --------
 
-const examplePalindrome = "reviver";
+const examplePalindrome = "osso";
 
 function palindrome(string) {
-    const reversedString = reverseString(examplePalindrome);
-    return reversedString;
+  return string === reverseString(string)
 }
-
 
 // ________________________ TEST ________________________
 console.log('TEST:');
